@@ -1,0 +1,605 @@
+// out: ../css/styles.css, sourcemap: true, compress: true
+body{
+
+  overflow-x: hidden;
+}
+.nav-respon{
+  display: flex;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  z-index: auto;
+
+  ul#slide-out {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../img/lol.png);
+    width: 50%;
+    background-position: center;
+    background-color: #2B2D2E;
+    a{
+      color: white;
+      font-size: 16px;;
+      font-weight: bold;
+    }
+    a:hover{
+      color: #FF5A5F;
+      text-decoration: none;
+    }
+  }
+  .side-nav{
+    li{
+      a{
+        &:hover{
+          background-color:transparent;
+        }
+      }
+    }
+  }
+  a{
+    left: 6%;
+    color: #FF5A5F;
+  }
+  .regle-input-respon{
+    border-left: none;
+    width: 80vw;
+  }
+  input#icon_prefix {
+    border: 1px solid grey;
+    height: 35px;
+    text-align: center;
+    border-radius: 2px;
+  }
+  i.material-icons.prefix {
+    margin-left: 45%;
+    margin-top: 17px;
+  }
+  .validate{
+    margin-top: 10px;
+  }
+}
+nav{
+  position: fixed;
+  z-index: auto !important;
+  img{
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+  .regle-input-head{
+    margin-left: 130px;
+    border-left: 1px solid grey;
+
+  }
+  i.material-icons.prefix {
+    margin-left: 29px;
+    color: grey;
+  }
+  .btn{
+    border: 2px solid grey;
+    color: grey;
+  }
+  li a{
+    color: grey;
+    border-left: 1px solid grey;
+  }
+}
+article{
+  background-image: url(../img/lisbonne.jpeg);
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex !important;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  .text-header-head.center-align {
+    margin-bottom: 86px;
+  }
+  h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  p{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+  .btn{
+    font-family: inherit;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid white;
+    user-select: none;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #484848;
+    width: 239px;
+
+  }
+  .btn:hover{
+    background-color: white;
+  }
+  .fond_noir_transparent{
+    background-color: rgba(0,0,0,0.7);
+    height: 90px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    .sisi{
+      border-radius: 5px 0px 0px 5px;
+    }
+    ul, ol {
+      margin-top: 0;
+      margin-bottom: 15px;
+      padding-left: 0px;
+    }
+    ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      input.form_pays{
+        border: none;
+        width: 370px;
+        height: 42px;
+        background-color: white;
+        border-right: 1px grey solid;
+        margin-top: 20px;
+      }
+      select{
+        height: 42px;
+        border-radius: 0px;
+        width: 146px;
+      }
+      .btn2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        border: 1px;
+        background-color: #FF5A5F;
+        height: 42px;
+        border-radius: 0px 5px 5px 0px;
+        width: 100%;
+        color: white;
+      }
+    }
+
+  }
+}
+.section_1{
+  .align-top{
+    margin-top: 50px;
+  }
+  .diner{
+    background-image: url(../img/diner.jpg);
+    height: 344px;;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .descriptif{
+    height: 344px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h3{
+      font-size: 26px;
+      font-weight: bold;
+      color: #484848;
+    }
+    .btn-revenu{
+      background-color: #007A87;
+      border: 1px;
+      color: white;
+      font-weight: bold;
+    }
+
+  }
+  .no-padding{
+    padding: 0;
+  }
+  .flex-respon-des{
+    background-image: url(../img/diner.jpg);
+    height: 344px;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3{
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+    }
+    p{
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+    }
+    .btn-revenu{
+      width: 80vw;
+      background-color: #007A87;
+      border-color: #007A87;
+      color: white;
+    }
+  }
+
+}
+.section2{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1{
+    font-size: 32px;
+  }
+  p{
+    font-size: 16px;
+  }
+}
+.section3{
+  margin-top: 50px;
+  .lile{
+    background-image: url(../img/lille.jpeg);
+    height: 344px;
+    background-size: cover;
+  }
+  .bruxelles{
+    background-image: url(../img/bruxelles.jpeg);
+    height: 344px;
+    background-size: cover;
+  }
+  .londres{
+    background-image: url(../img/londres.jpeg);
+    height: 344px;
+    background-size: cover;
+  }
+  .flex_text_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+  }
+}
+.section4{
+  .col.s1.troue {
+    width: 20px;
+  }
+  .lisbonne{
+    background-image: url(../img/lisbonne.jpeg);
+    height: 344px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .home{
+    background-image: url(../img/home.jpg);
+    height: 344px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .flex_text_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+  }
+  .amsterdam{
+    background-image: url(../img/amsterdam.jpeg);
+    height: 344px;
+    background-size: cover;
+  }
+  .new_york{
+    background-image: url(../img/usa.jpeg);
+    height: 344px;
+    background-size: cover;
+  }
+  .venise{
+    background-image: url(../img/venise.jpg);
+    height: 344px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .lol{
+    background-image: url(../img/blue.jpg);
+    height: 344px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .rome{
+    background-image: url(../img/rome.jpeg);
+    height: 344px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .berlin{
+    background-image: url(../img/berlin.jpeg);
+    height: 344px;
+    background-size: cover;
+  }
+  .bordeaux{
+    background-image: url(../img/bordeaux.jpeg);
+    height: 344px;
+    background-size: cover;
+  }
+  .surf{
+    background-image: url(../img/biarritz.jpg);
+    height: 344px;
+    background-size: cover;
+
+    background-position: center;
+  }
+}
+.carousel.carousel-slider .carousel-item {
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.carousel.carousel-slider.center.initialized {
+  height: 600px;
+}
+.carousel-item{
+  display: flex!important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.life_in_color{
+  background-image: url(../img/chinefamily.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+  }
+  h2{
+    font-size: 25px;
+  }
+  i.material-icons {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 100px;
+  }
+}
+.bella_vitta{
+  background-image: url(../img/color.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+  }
+  h2{
+    font-size: 25px;
+  }
+  .btn{
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: none;
+    color: white;
+  }
+}
+.moon{
+  background-image: url(../img/moon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+  }
+  h2{
+    font-size: 25px;
+  }
+  i.material-icons {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 100px;
+  }
+}
+.section5{
+  .col.s12.m6.l3.card0 {
+    margin-left: -16px;
+    margin-right: 14px;
+  }
+  .container{
+    width: 90%;
+  }
+  .card0{
+    background-color: #008D82;
+
+    height: 492px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+      color: white;
+      font-size: 25px;
+      line-height: 0
+    }
+    h5{
+      color: white;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  .card1{
+    background-image: url(../img/love.jpg);
+    height: 492px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    .btn{
+      color: white;
+    }
+    h2{
+      color: white;
+      font-size: 26px;
+      font-weight: bold;
+    }
+    p{
+      color: white;
+    }
+  }
+  .card2{
+    background-image: url(../img/work.jpg);
+    height: 492px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    .btn{
+      color: white;
+      border: none;
+    }
+    h2{
+      color: white;
+      font-size: 26px;
+      font-weight: bold;
+    }
+    p{
+      color: white;
+    }
+  }
+  .card3
+  {
+    background-image: url(../img/fille.jpg);
+    height: 492px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    .btn{
+      color: white;
+      border: none;
+    }
+    h2{
+      color: white;
+      font-size: 26px;
+      font-weight: bold;
+    }
+    p{
+      color: white;
+    }
+  }
+}
+footer{
+  background-image: url(../img/lol.png);
+  width: 100%;
+  background-position: center;
+  background-color: #2B2D2E;
+  select{
+    background-color: #484848;
+    color: white;
+    border: #484848;
+    span{
+      margin-right: 50px;
+    }
+  }
+  .list1{
+    color: white;
+    .headlist{
+      margin-bottom: 25px;
+      font-weight: bold;
+    }
+  }
+  hr{
+    width: 80%;
+    color: white;
+  }
+  .secte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+      color: white;
+      font-size: 16px;
+    }
+  }
+  .list2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul{
+      display: flex;
+      li{
+        color: white;
+        .rond{
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 1px solid white;
+        }
+        .troue{
+          width: 20px;
+        }
+      }
+    }
+  }
+  .copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .respon-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .col.s4.hide-on-large-only.respon-select-footer{
+      width: 100vw;
+    }
+    .footer-respon-txt{
+      text-align: center;
+      a{
+        color: white;
+        text-decoration: none;
+      }
+      a:hover{
+        color: grey;
+      }
+    }
+  }
+}
